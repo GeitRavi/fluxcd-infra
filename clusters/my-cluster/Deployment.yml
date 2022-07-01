@@ -8,7 +8,7 @@ metadata:
   name: fluxcd-first
 spec:
   containers:
-  - image: ghcr.io/geitravi/fluxcd:latest
+  - image: ghcr.io/geitravi/fluxcd:1.0.1
     name: fluxcd-first
     resources: {}
   restartPolicy: Always
