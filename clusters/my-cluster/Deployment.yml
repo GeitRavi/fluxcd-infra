@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  namespace: pod-system
+  namespace: default
   creationTimestamp: null
   labels:
     run: fluxcd-first
